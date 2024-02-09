@@ -1,0 +1,32 @@
+.Items{
+    background-color: grey;
+    padding: 0.5rem;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    border-radius: 1px;
+}
+
+.Calender{
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    justify-content: center;
+    color: white;
+}
+
+.day{
+    text-align: center;
+    padding: 6px;
+}
+.month{
+    text-align: center;
+    padding: 2px;
+}
+.year{
+    text-align: center;
+    padding: 2px;
+}
