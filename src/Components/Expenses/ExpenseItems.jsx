@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Cards from '../UI/Cards.js'
 import ExpenseDate from './ExpenseDate.js'
 import './ExpenseItem.css'
 
 
 const ExpenseItems = (props) =>{
-    const[price,SetPrice]=useState()
-    const ChangePrice = () => {
-        SetPrice("100")
-    }
     return(
         <>
         <Cards className="Items">
@@ -16,9 +12,8 @@ const ExpenseItems = (props) =>{
             <ExpenseDate date={props.date}/>
             <div className='expense-item-description'>
                 <h2>{props.title}</h2>
-                <div className='expense-item-price'>${price}</div>
+                <div className='expense-item-price'>${props.price}</div>
             </div>
-            <button onClick={ChangePrice}id='btn'>Change</button>
        </div>
      </Cards>
      </>
