@@ -1,35 +1,26 @@
-.Items{
-    background-color: grey;
-    padding: 0.5rem;
-    margin-inline-start: 20%;
-    margin-inline-end: 20%;
-    border-radius: 1px;
-}
-
-.Calender{
+.expense-date {
     display: flex;
     flex-direction: column;
     width: 5.5rem;
     height: 5.5rem;
     border: 1px solid #ececec;
     background-color: #2a2a2a;
-    border-radius: 12px;
-    justify-content: center;
     color: white;
-}
-
-.day{
-    text-align: center;
-    padding: 6px;
-    font-weight: 50;
-}
-.month{
-    text-align: center;
-    padding: 2px;
-    font-weight: 50;
-}
-.year{
-    text-align: center;
-    padding: 2px;
-    font-size: 10px;
-}
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .expense-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .expense-date__year {
+    font-size: 0.75rem;
+  }
+  
+  .expense-date__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
